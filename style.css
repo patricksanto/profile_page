@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@100;400;700&family=Special+Elite&display=swap');
+
+p, a, h1, h2, ul, li, body {
+  padding: 0px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  gap: 0
+}
+
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+body {
+  background-color: #62B6B7;
+  font-family: Lato, sans-serif;
+  color: #F7F7F7;
+  margin: 60px 0px;
+  background-image: url("./images/photos_2017_11_10_fst_sea-ocean-water-texture-2.jpg");
+}
+
+.white-card {
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.small-card{
+  flex: 1;
+}
+
+.profile{
+  padding: 40px;
+}
+
+.card-white {
+  background-color: #439a971d;
+  border: 1px solid rgba(255, 255, 255, 0.106);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.333);
+  -webkit-backdrop-filter: blur(15px);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.27);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h2{
+  font-weight: 400;
+  color: #CBEDD5;
+}
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 30px 0px;
+}
+
+p{
+  margin: 30px 0px;
+}
+
+.paragraphers{
+  overflow-wrap: break-word
+}
+.button{
+  color: #439a97e7;
+  background-color: #cbedd5e4;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:14px;
+  margin: 30px 0px;
+  transition: .5s
+}
+
+.button:hover{
+  background-color: #439A97;
+  color: white;
+}
+
+.fa-brands {
+  font-size: 36px;
+  color: #62B6B7;
+  transition: .4s;
+}
+
+.fa-brands:hover {
+  color: #41908e ;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
